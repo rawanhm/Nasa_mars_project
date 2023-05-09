@@ -1,0 +1,115 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  
+  flex-direction:column-reverse;
+  font-family: Arial;
+  height: 100%;
+  margin: 0;
+ 
+ 
+  background: rgb(72, 105, 194);
+}
+
+header {
+  background: rgb(72, 105, 194);
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+button{
+  text-align: center;
+  text-decoration: none;
+  display: -moz-inline-stack;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  position:relative;
+  background-color: #aeb0b5;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  width: 20%;
+}
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.card{
+ background:#0b3d91 ;
+ color: rgb(255, 255, 255);
+ width: 500px;
+ padding: 10px;
+ font-size: 20px;
+ position: center;
+}
+/* .card:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+.nasa{
+  background-color:rgb(72, 105, 194); ;
+  float: left;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0%;
+  width: 170px;
+
+}
+.image{
+
+
+  background-color:rgb(72, 105, 194); ;
+ 
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0%;
+  width: 300px;
+}
+span{
+
+font-style: oblique;
+}
+
+footer {
+background: rgb(161, 182, 240);
+}
+h1{
+  /* nasa color */
+  color: #ddd;
+  background-color: #0b3d91;
+  display:block;
+  text-align: center;
+  
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  div.card {
+    margin: 5px;
+    float: left;
+    width: -webkit-fill-available;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+
+
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  div.card {
+    margin: 5px;
+    float: left;
+    box-sizing: 20% ;  }
+}
